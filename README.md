@@ -304,7 +304,7 @@ summary(model, input_size=(40, 1))
 tensorboard --logdir=runs
 ```
 
-![模型架構圖](Jun14_11-32-16_65-0B20770-02.png)
+![模型架構圖](模型架構圖.png)
 
 
 
