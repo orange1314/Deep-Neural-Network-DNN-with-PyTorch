@@ -569,6 +569,8 @@ with Live(progress, refresh_per_second=1) as live:
         live.update(progress_table)
 
 ```
+![png](模型更新.png)
+
 
 
 ```python
