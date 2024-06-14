@@ -300,14 +300,6 @@ summary(model, input_size=(40, 1))
 
 首先，確保已經安裝 TensorBoard。可以使用以下命令來生成run文件：
 
-```bash
-tensorboard --logdir=runs
-```
-
-![模型架構圖](模型架構圖.png)
-
-
-
 ```python
 from torch.utils.tensorboard import SummaryWriter
 writer = SummaryWriter()
@@ -317,6 +309,17 @@ t_input = torch.randn(40,1).to(device)  # 批量大小為1，序列長度為5，
 writer.add_graph(model, t_input)
 writer.close()
 ```
+接下來打開終端機，在run文件的目錄執行
+
+```bash
+tensorboard --logdir=runs
+```
+
+![模型架構圖](模型架構圖.png)
+
+
+
+
 
 # 批量梯度下降
 
