@@ -110,7 +110,7 @@ plt.show()
 ```markdown
 # 使用 PyTorch 訓練和測試帶有隨機雜訊的二次曲線模型
 
-本文將介紹如何使用 PyTorch 訓練和測試一個帶有隨機雜訊的二次曲線模型。
+如何使用 PyTorch 訓練和測試一個帶有隨機雜訊的二次曲線模型。
 
 ## 引入所需的庫
 
@@ -294,7 +294,7 @@ summary(model, input_size=(40, 1))
 
 # 使用 TensorBoard 可視化模型架構
 
-本文將介紹如何在終端運行 TensorBoard 並使用 `torch.utils.tensorboard.SummaryWriter` 生成模型架構圖。
+如何在終端運行 TensorBoard 並使用 `torch.utils.tensorboard.SummaryWriter` 生成模型架構圖。
 
 ## TensorBoard
 
