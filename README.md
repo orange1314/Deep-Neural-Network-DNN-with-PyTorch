@@ -568,15 +568,6 @@ with Live(progress, refresh_per_second=1) as live:
 ```
 
 
-    Output()
-
-
-
-<pre style="white-space:pre;overflow-x:auto;line-height:normal;font-family:Menlo,'DejaVu Sans Mono',consolas,'Courier New',monospace"></pre>
-
-
-
-
 ```python
 # 評估模型
 model.eval()
